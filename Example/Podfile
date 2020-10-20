@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MuDanHomeModule_Example' do
+  pod 'MuDanHomeModule', :path => '../'
+
+  target 'MuDanHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
